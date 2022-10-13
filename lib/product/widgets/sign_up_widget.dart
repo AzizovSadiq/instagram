@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 import '../../constant/border_constant.dart';
@@ -7,8 +5,8 @@ import '../../constant/color_constant.dart';
 import '../../constant/padding_constant.dart';
 import '../../constant/string_constant.dart';
 
-class SignInButtonWidget extends StatelessWidget {
-  const SignInButtonWidget({
+class SignUpButtonWidget extends StatelessWidget {
+  const SignUpButtonWidget({
     Key? key,
   }) : super(key: key);
 
@@ -31,7 +29,7 @@ class SignInButtonWidget extends StatelessWidget {
           padding: PaddingConstant.instance.allPad10,
           child: Center(
             child: Text(
-              TextConstant.signIn,
+              TextConstant.signUp,
               style: Theme.of(context).textTheme.headline6,
             ),
           ),
@@ -40,5 +38,3 @@ class SignInButtonWidget extends StatelessWidget {
     );
   }
 }
-
-

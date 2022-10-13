@@ -31,7 +31,7 @@ class _EmailTextFieldState extends State<EmailTextField> {
         keyboardType: TextInputType.emailAddress,
         autofillHints: const [AutofillHints.email],
         textInputAction: TextInputAction.next,
-        decoration:const InputDecoration(
+        decoration: const InputDecoration(
           border: InputBorder.none,
           hintText: TextConstant.email,
           prefixIcon: Icon(Icons.email),
